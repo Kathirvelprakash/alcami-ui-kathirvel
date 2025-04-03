@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcami - Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p>Get 25% off your first month. Free Shipping on U.S. orders.</p>
+    </div>
+
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="main-header-con">
+            <div class="brand-logo">
+                <img src="assets/logo.png" alt="Logo">
+            </div>
+
+            <nav class="navigation-menu">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Shop
+                            <svg class="dropdown-icon default-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 25 26" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0284 16.6521C12.8063 16.8743 12.4462 16.8743 12.224 16.6521L6.42442 10.8525C6.20228 10.6304 6.20228 10.2702 6.42442 10.0481L6.69259 9.7799C6.91473 9.55774 7.27491 9.55774 7.49706 9.7799L12.6262 14.9091L17.7554 9.7799C17.9776 9.55774 18.3377 9.55774 18.5599 9.7799L18.8281 10.0481C19.0502 10.2702 19.0502 10.6304 18.8281 10.8525L13.0284 16.6521Z" fill="#322D2D"/>
+                            </svg>
+                            <svg class="dropdown-icon hover-icon" fill="#000000" height="10px" width="15px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                viewBox="0 0 330 330" xml:space="preserve">
+                                <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                    l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                    C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"/>
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Elements</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>            
+
+            <div class="search-box" style="display: none;">
+                <input type="text" placeholder="Search For Products..." class="search-input">
+            </div>
+
+            <div class="right-section">
+                <div class="search-trigger" onclick="toggleSearch()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 39 39" fill="none">
+                        <path d="M32.5571 30.605L27.4222 25.4701C28.9784 23.4329 29.8319 20.9618 29.8323 18.3543C29.8323 15.212 28.6084 12.2575 26.3861 10.0356C24.1642 7.81368 21.2101 6.58984 18.0674 6.58984C14.9251 6.58984 11.9707 7.81368 9.74875 10.0356C5.16188 14.6229 5.16188 22.0865 9.74875 26.673C11.9707 28.8953 14.9251 30.1191 18.0674 30.1191C20.6749 30.1188 23.146 29.2653 25.1833 27.709L30.3182 32.844C30.627 33.1532 31.0325 33.3078 31.4376 33.3078C31.8427 33.3078 32.2482 33.1532 32.5571 32.844C33.1756 32.2259 33.1756 31.2231 32.5571 30.605ZM11.9877 24.434C8.63547 21.0818 8.63585 15.6271 11.9877 12.2745C13.6116 10.651 15.7709 9.75651 18.0674 9.75651C20.3643 9.75651 22.5233 10.651 24.1472 12.2745C25.7711 13.8985 26.6656 16.0578 26.6656 18.3543C26.6656 20.6512 25.7711 22.8101 24.1472 24.434C22.5233 26.058 20.3643 26.9525 18.0674 26.9525C15.7709 26.9525 13.6116 26.058 11.9877 24.434Z" fill="#322D2D"/>
+                    </svg>
+                </div>
+    
+                <button class="primary-cta">Try Alcami →</button>
+    
+                <div class="hamburger-menu" onclick="toggleMenu()">&#9776</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider">
+                <div class="slider-con">
+                    <div class="slider-left">
+                        <div class="slider-rev">
+                            <div class="slider-rev-star">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                                    <path d="M7.7384 1.49579C7.85088 1.22536 8.23396 1.22536 8.34644 1.49579L10.1425 5.81408C10.1899 5.92809 10.2972 6.00598 10.4202 6.01585L15.0822 6.38961C15.3742 6.41301 15.4925 6.77735 15.2701 6.96788L11.7182 10.0105C11.6244 10.0908 11.5835 10.2169 11.6121 10.337L12.6973 14.8862C12.7653 15.1711 12.4553 15.3964 12.2054 15.2437L8.21405 12.8057C8.10869 12.7414 7.97615 12.7414 7.87079 12.8057L3.87949 15.2437C3.62954 15.3964 3.31962 15.1711 3.38757 14.8862L4.47274 10.337C4.5014 10.2169 4.46044 10.0908 4.36667 10.0105L0.814747 6.96788C0.592311 6.77735 0.710693 6.41301 1.00264 6.38961L5.66461 6.01585C5.78768 6.00598 5.8949 5.92809 5.94232 5.81408L7.7384 1.49579Z" fill="#DEA453"/>
+                                </svg>
+                                <p>4.8 star rating</p>
+                            </div>
+                            <div class="slider-rev-con">
+                                <p>awarded the top adaptogen blend in the world</p>
+                            </div>
+                        </div>
+                        <h2>Achieve your highest self.</h2>
+                        <div class="slider-count">
+                            <div class="slider-count1">
+                                    <h1>10X</h1>
+                                <div class="slider-count-def">
+                                    <p>concentration</p>
+                
+                                </div>
+                            </div>
+                            <div class="slider-count2">
+                                <div class="slider-count-head">
+                                    <h1>9</h1>
+                                </div>                              
+                                <div class="slider-count-def">
+                                    <p>powerful ingredients</p>
+                                </div>
+                            </div>
+                            <div class="slider-count3">
+                                <div class="slider-count-head">
+                                    <h1>1000</h1>
+                                    <h6 style="display: inline;">mg</h6>
+                                </div>
+                                <div class="slider-count-def">
+                                    <p>of Adaptogens per dose</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="primary-cta" style="padding: 16px 28px; width:auto;">
+                            <p>Shop Now</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+                                <path d="M0.96875 3.23654C0.689491 3.23654 0.463106 3.46293 0.463106 3.74219C0.463106 4.02145 0.68949 4.24783 0.96875 4.24783L0.96875 3.23654ZM13.3261 4.09973C13.5235 3.90227 13.5235 3.58211 13.3261 3.38464L10.1082 0.166745C9.91072 -0.0307211 9.59056 -0.0307211 9.39309 0.166745C9.19563 0.364211 9.19563 0.684367 9.39309 0.881834L12.2534 3.74219L9.39309 6.60254C9.19563 6.80001 9.19563 7.12017 9.39309 7.31763C9.59056 7.5151 9.91072 7.5151 10.1082 7.31763L13.3261 4.09973ZM0.96875 4.24783L12.9685 4.24783L12.9685 3.23654L0.96875 3.23654L0.96875 4.24783Z" fill="black"/>
+                        </svg></button>
+                    </div>
+                    <div class="slider-right">
+                        <img src="assets/Slider.png" alt="">
+                        <!-- Content for right section -->
+                    </div>
+                </div>
+    </section>
+    <section class="slidercontent">
+        <div class="slider-content">
+            <h4> Incredible Taste and Effects You Can Feel </h4>
+        </div>
+    </section>
+
+    <section class="ingredients">
+        <div class="ingredients-container">
+            <div class="ingredients-image">
+                <img src="assets/ingredients.png" alt="Ingredients">
+            </div>
+            <div class="ingredients-content">
+                <p class="ingredients-highlight">9 POWERFUL ELEMENTS</p>
+                <h1 class="ingredients-title">All of the Best Ingredients, None of the Compromise</h1>
+                <h2 class="ingredients-description">
+                    Alcami uses <span class="highlight">x10 potency</span> in every serving, formulated for maximum absorption to ensure your body gets the most out of every scoop.
+                </h2>
+                <button class="primary-cta">
+                    <p>View full ingredients</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+                        <path d="M0.96875 3.23654C0.689491 3.23654 0.463106 3.46293 0.463106 3.74219C0.463106 4.02145 0.68949 4.24783 0.96875 4.24783L0.96875 3.23654ZM13.3261 4.09973C13.5235 3.90227 13.5235 3.58211 13.3261 3.38464L10.1082 0.166745C9.91072 -0.0307211 9.59056 -0.0307211 9.39309 0.166745C9.19563 0.364211 9.19563 0.684367 9.39309 0.881834L12.2534 3.74219L9.39309 6.60254C9.19563 6.80001 9.19563 7.12017 9.39309 7.31763C9.59056 7.5151 9.91072 7.5151 10.1082 7.31763L13.3261 4.09973ZM0.96875 4.24783L12.9685 4.24783L12.9685 3.23654L0.96875 3.23654L0.96875 4.24783Z" fill="black"/>
+                    </svg></button>
+
+                <!-- <button class="cta-button"> -->
+                    
+                </button>
+            </div>
+        </div>
+    </section>    
+    
+    
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector(".navigation-menu");
+            navMenu.classList.toggle("active");
+        }
+        
+        function toggleSearch() {
+            const navMenu = document.querySelector('.navigation-menu');
+            const searchBox = document.querySelector('.search-box');
+        
+            if (navMenu.style.display !== 'none') {
+                navMenu.style.display = 'none';
+                searchBox.style.display = 'block';
+                searchBox.querySelector('input').focus();
+            } else {
+                navMenu.style.display = 'flex';
+                searchBox.style.display = 'none';
+            }
+        }
+        
+        // Close search when clicking outside or pressing "Esc"
+        document.addEventListener('keydown', function (event) {
+            if (event.key === "Escape") {
+                toggleSearch();
+            }
+        });
+        
+        // Close search when clicking outside
+        document.addEventListener('click', function (event) {
+            const searchBox = document.querySelector('.search-box');
+            const searchTrigger = document.querySelector('.search-trigger');
+        
+            if (!searchBox.contains(event.target) && !searchTrigger.contains(event.target)) {
+                searchBox.style.display = 'none';
+                document.querySelector('.navigation-menu').style.display = 'flex';
+            }
+        });
+
+    </script>
+
+</body>
+</html>
