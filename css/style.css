@@ -1060,3 +1060,201 @@
         width: 100%;
     }
 }
+
+.signup{
+    padding: 80px 4%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.signup-con{
+    background-image: url(../assets/Signup.jpg);
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1327.914px;
+    height: 646.301px;
+    padding: 80.965px 154.084px 259.072px 154.086px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+
+}
+
+.signup-con h1{
+    color: #FFF;
+    text-align: center;
+    font-family: "New Rail Alphabet";
+    font-size: 42.324px;
+    width: 650px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.signup-con p{
+    color: #FFF;
+    text-align: center;
+    font-family: "New Rail Alphabet";
+    font-size: 21.162px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 150%; /* 31.743px */
+}
+
+.signup-con-input {
+    padding: 10px;
+    display: flex;
+    width: 550px;
+    padding: 12.135px;
+    align-items: center;
+    border: 1.011px solid #FFF;
+    background-color: transparent;
+    margin-bottom: 16px;
+    margin-bottom: 20px;
+}
+
+.sign-svg{
+    stroke-width: 1.07px;
+    stroke: #674;
+    width: 12.697px;
+    height: 0px;
+}
+
+.sign {
+    display: flex;
+    padding: 12.84px 25.681px;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 535.018px;
+    background: #FFF;
+    color: #674;
+    font-family: "New Rail Alphabet";
+    border: none;
+    font-size: 21.162px;
+    font-style: normal;
+    font-weight: 300;
+    flex-direction: row;
+}
+
+.sign:hover {
+    background: linear-gradient(94deg, #B08D3F, #C19E52);
+    color: #FFF;
+    transform: scale(1.05);
+}
+
+@media (max-width: 1380px) {
+    .signup-con {
+        width: 100%;
+        height: auto;
+        border-radius: 14.98px;
+        padding: 60px 10%;
+    }
+
+    .signup-con h1 {
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .signup-con p {
+        font-size: 18px;
+    }
+
+    .signup-con-input {
+        width: 80%;
+    }
+
+    .sign {
+        font-size: 18px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 992px) {
+    .signup {
+        padding: 60px 5%;
+    }
+
+    .signup-con {
+        padding: 50px 8%;
+    }
+
+    .signup-con h1 {
+        font-size: 32px;
+    }
+
+    .signup-con p {
+        font-size: 16px;
+    }
+
+    .signup-con-input {
+        width: 100%;
+    }
+
+    .sign {
+        font-size: 16px;
+        width: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .signup {
+        padding: 40px 5%;
+    }
+
+    .signup-con {
+        padding: 40px 5%;
+        text-align: center;
+    }
+
+    .signup-con h1 {
+        font-size: 28px;
+    }
+
+    .signup-con p {
+        font-size: 14px;
+    }
+
+    .signup-con-input {
+        width: 90%;
+    }
+
+    .sign {
+        font-size: 14px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup {
+        padding: 30px 5%;
+    }
+
+    .signup-con {
+        padding: 30px 5%;
+    }
+
+    .signup-con h1 {
+        font-size: 24px;
+    }
+
+    .signup-con p {
+        font-size: 12px;
+    }
+
+    .signup-con-input {
+        width: 100%;
+    }
+
+    .sign {
+        font-size: 12px;
+        width: 110px;
+        padding: 10px;
+    }
+}
