@@ -44,6 +44,10 @@
     transition: 0.3s ease;
 }
 
+.primary-cta svg{
+    margin-left: 10px;
+}
+
 .primary-cta:hover {
     background: linear-gradient(94deg, #B08D3F, #C19E52);
     color: #FFF;
@@ -607,7 +611,7 @@
     font-weight: 300;
     background-color: transparent;
     /* border: none; */
-    width: 259px;
+    width: 270px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -849,7 +853,535 @@
     }
 }
 
+.choice{
+    padding: 100px 4%;
+    display: flex;
+    gap: 65px;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.choice-con{
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    padding: 0px 14.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-pro{
+    display: flex;
+    padding: 25px;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-img{
+    display: flex;
+}
+
+.table-img img{
+    height: 100px;
+    width: auto;
+}
+.table-con{
+    display: flex;
+}
+
+.choice-table h2{
+    text-align: left;
+    color: #322D2D;
+    margin-left: 10px;
+    margin-right: 60px;
+    font-family: "New Rail Alphabet";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.991px; /* 143.691% */
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  td svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+
+.choice-table {
+    border-bottom:none;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choice-table p{
+    color: #666;
+    text-align: center;
+    font-family: "New Rail Alphabet";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.159px; /* 119.742% */
+}
+
+.choice-header{
+    width: 80%;
+}
+
+table, tr, td{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+tr{
+    height: 50px;
+}
+
+.table-hover :hover{
+    border-radius: 15.169px;
+    background: #F0EEE6;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-table{
+    width: 100%;
+}
+
+.choice h1{
+    color: #322D2D;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "New Rail Alphabet";
+    font-size: 40.452px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (max-width: 1024px) {
+    .choice {
+        padding: 80px 5%;
+        gap: 50px;
+    }
+
+    .choice-con {
+        padding: 0 8%;
+    }
+
+    .table-pro {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .choice-table h2 {
+        font-size: 15px;
+    }
+
+    .choice h1 {
+        font-size: 32px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    tr {
+        height: auto;
+    }
+
+    .choice-header {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .choice {
+        padding: 40px 3%;
+    }
+
+    .choice-con {
+        padding: 0 3%;
+    }
+
+    .choice h1 {
+        font-size: 24px;
+    }
+
+    .choice-table h2,
+    .choice-table p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .table-img img {
+        height: 60px;
+    }
+
+    .table-con {
+        flex-direction: column;
+    }
+
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+}
+
+/* Founder */
+
+.founder{
+    padding: 0px 4% 100px;
+    display: flex;
+    gap: 65px;
+    flex-direction: column;
+    justify-content: center;
+}
+.founder-video{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.founder-video img{
+    width: 100%;
+    max-width: 1428px;
+    height: auto;
+}
+
+.play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10vw; /* Make it responsive */
+    max-width: 58px; /* Limit max size */
+    height: auto;
+    cursor: pointer;  
+}
+
+.founder-con{
+    display: flex;
+}
+
+.founder-con-head h1{
+    color: #322D2D;
+    font-family: "New Rail Alphabet";
+    font-size: 40.452px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.founder-con-detail p {
+    color: #322D2D;
+    font-family: "New Rail Alphabet";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.founder-con-head{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.founder-con-detail{
+    display: flex;
+    flex: 1;
+    padding-right: 90px;
+}
+
+@media (max-width: 768px) {
+    .founder {
+        flex-direction: column;
+        padding: 0 4% 50px; /* Reduce bottom padding */
+    }
+
+    .founder-video img {
+        width: 100%; /* Ensure it fits the screen */
+    }
+    
+    .founder-con-head{
+    align-items: center;
+    }
+
+    .founder-con {
+        flex-direction: column;
+        gap: 20px; /* Reduce spacing */
+    }
+
+    .founder-con-head h1 {
+        font-size: 28px; /* Reduce font size */
+    }
+
+    .founder-con-detail p {
+        font-size: 16px; /* Adjust for readability */
+        padding-right: 0; /* Remove extra right padding */
+    }
+}
+
+
+/* testimonial  */
+.testimonial {
+    background: #F0EFEB;
+    padding: 80px 4%;
+    /* display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.testimonial-con{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.testimonial-head{
+    display: flex;
+}
+
+.testimonial-head-con{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-head-con h1{
+    color: #322D2D;
+    font-family: "New Rail Alphabet";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.testimonial-head-con h3 {
+    color: #322D2D;
+    font-family: "New Rail Alphabet";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 30px */
+}
+
+.tesinomial-coun-head {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tesinomial-coun-head svg {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.tesinomial-coun-head svg:hover {
+    background-color: #322D2D;
+    border-radius: 50%;
+    transform: scale(1.1); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+}
+
+.tesinomial-coun-head path {
+    transition: fill 0.3s ease-in-out;
+}
+
+.tesinomial-coun-head svg:hover path {
+    fill: #F0EEE6; /* Changes icon color on hover */
+}
+
+.testimonial-foot{
+    display: flex;
+    justify-content: center;
+}
+
+.test{
+    display: grid;
+    flex: 1 ;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    scrollbar-width: none; /* Hide scrollbar */
+}
+
+.test-con {
+scroll-snap-align: start;
+}  
+
+
+.test-review p{
+    color: #322D2D;
+    font-family: "New Rail Alphabet";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.test-user-dp img{
+    width: 56.632px;
+    height: 56.632px;
+}
+.test-user{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.test-user-data h3{
+    color: #322D2D;
+    font-family: "New Rail Alphabet";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 21px */
+}
+
+.test-con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32.361px;
+    align-items: flex-start;
+    flex: 1;
+    border-radius: 12.135px;
+    background: #FCFCFC;
+}
+
+.test p{
+    color: #322D2D;
+    font-family: "New Rail Alphabet";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+}
+
+.test h5 {
+    color: #322D2D;
+    font-family: "New Rail Alphabet";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 21px */
+}
+
+@media (max-width: 1024px) {
+    .testimonial-head h1 {
+        font-size: 2rem;
+    }
+
+    .testimonial-foot{
+        display: none;
+    }
+    
+    .test{
+        display: grid;
+        flex: 1 ;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+
+    .testimonial-head h3 {
+        font-size: 1rem;
+    }
+
+    .tesinomial-coun-head {
+        display: none;
+    }
+
+    .test-con {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonial-head h1 {
+        font-size: 1.8rem;
+    }
+
+    .testimonial-head h3 {
+        font-size: 1rem;
+    }
+    
+    .testimonial-foot{
+        display: none;
+    }
+    
+    .tesinomial-coun-head {
+        display: none;
+    }
+
+    .test{
+        display: grid;
+        flex: 1;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        justify-items: center;
+    }
+
+    .tesinomial-coun-head {
+        gap: 10px;
+    }
+
+    .tesinomial-coun-head svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .test-con {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial-head h1 {
+        font-size: 1.5rem;
+    }
+   
+    .testimonial-foot{
+        display: none;
+    }
+    
+    .tesinomial-coun-head {
+        display: none;
+    }
+
+    .testimonial-head h3 {
+        font-size: 0.9rem;
+    }
+
+    .tesinomial-coun-head svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .test-con {
+        padding: 10px;
+    }
+}
 
 /* Signup */
 
